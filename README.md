@@ -33,7 +33,7 @@ To learn React Redux, check out the [React Redux documentation](https://react-re
 
 ## Screenshots
 
-
+<img src="https://github.com/anupmaurya1994/LandingPage.Angular/blob/main/src/assets/dashboard.png" width="280">
 
 ## Support
 
