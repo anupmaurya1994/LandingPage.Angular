@@ -1,4 +1,4 @@
-# LandingPage-ReactTS
+# LandingPage-React-TS
 
 This project is a dashboard landing page created using React with TypeScript. It includes user authentication, a list of users, and state management using React Redux. All data is stored using local storage.
 
