@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
+# DashboardLandingPage.ReactTS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dashboard landing page created using React with TypeScript. It includes user authentication, a list of users, and state management using React Redux. All data is stored using local storage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Login/Signup Page with Validation:** Users can sign up and log in with proper validation checks.
+2. **List of Users:** Displays a list of users who have joined.
+3. **State Management:** Utilizes React Redux for state management.
 
-## Expanding the ESLint configuration
+## Pre-requisites
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Node.js](https://nodejs.org/) v20.12.0 (which includes npm)
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. [Install Visual Studio Code](https://code.visualstudio.com/) Editor.
+2. Clone this repository.
+3. Open Terminal and navigate to the location of the repository.
+4. Run the command `npm install` to install dependencies (make sure to navigate inside the project directory first). This will add the required files to the project.
+5. Run the command `npm start` to start the project. The application will be available at `http://localhost:3000`.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+To learn TypeScript, check out the [TypeScript documentation](https://www.typescriptlang.org/docs/).
+
+To learn React Redux, check out the [React Redux documentation](https://react-redux.js.org/introduction/getting-started).
+
+## Screenshots
+
+
+
+## Support
+
+If you've found an error in this sample, please [report an issue](link/to/issue/repository). You can also send your feedback and suggestions to [constantsysemployee@gmail.com].
+
+Happy coding!
